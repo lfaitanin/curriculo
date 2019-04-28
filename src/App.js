@@ -4,8 +4,8 @@ import Rodape from './componentes/Rodapes';
 import Cabecalho from './componentes/Cabecalho';
 import Inicio from './componentes/Inicio';
 import Skills from './componentes/skills';
-import Projetos from './componentes/Projetos'
 import Contatos from './componentes/Contatos'
+import Projetos from './componentes/Projetos'
 class App extends Component  {
   render() {
   return (

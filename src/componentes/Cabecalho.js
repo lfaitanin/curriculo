@@ -22,7 +22,7 @@ const Cabecalho = props => {
       <ul className='nav navbar-nav navbar-right'>
         <li><Link to='/'>INICIO</Link></li>
         <li><Link to='/skills'>SKILLS</Link></li>
-        <li><Link to='/P'>PROJETOS</Link></li>
+        <li><Link to='/Projetos'>PROJETOS</Link></li>
         <li><Link to='/Contatos'>CONTACT</Link></li>
         
 
