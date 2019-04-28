@@ -1,8 +1,14 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Cabecalho = props => {
     return(
-          <nav className='navbar navbar-default navbar-fixed-top'>
+             <div>
+             <div>
+            <div className='jumbotron text-center'>
+             <h1>CV online</h1>
+ 
+</div>
+ <nav className='navbar navbar-default navbar-fixed-top'>
   <div className='container'>
     <div className='navbar-header'>
       <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='#myNavbar'>
@@ -10,17 +16,22 @@ const Cabecalho = props => {
         <span className='icon-bar'></span>
         <span className='icon-bar'></span>                        
       </button>
-      <a className='navbar-brand' href='#myPage'>Logo</a>
+      <Link className='navbar-brand' to='/'>Logo</Link>
     </div>
     <div className='collapse navbar-collapse' id='myNavbar'>
       <ul className='nav navbar-nav navbar-right'>
-        <li><a href='#about'>SKILLS</a></li>
-        <li><a href='#portfolio'>PORTFOLIO</a></li>
-        <li><a href='#contact'>CONTACT</a></li>
+        <li><Link to='/'>INICIO</Link></li>
+        <li><Link to='/skills'>SKILLS</Link></li>
+        <li><Link to='/P'>PROJETOS</Link></li>
+        <li><Link to='/Contatos'>CONTACT</Link></li>
+        
+
       </ul>
     </div>
   </div>
 </nav>
+</div>
+</div>
     )
 }
 export default Cabecalho;
